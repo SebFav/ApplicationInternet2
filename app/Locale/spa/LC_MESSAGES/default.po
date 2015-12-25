@@ -1,0 +1,576 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"PO-Revision-Date: 2015-09-12 18:41-0100\n"
+"Language-Team: EMAIL@ADDRESS\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"POT-Creation-Date: \n"
+"X-Generator: Poedit 1.8.4\n"
+"Last-Translator: \n"
+"Language: es\n"
+
+#: Controller/AppController.php:71
+msgid "This action is not authorized"
+msgstr "Esta acción no está autorizado"
+
+#: Controller/CommentsController.php:39;75;107
+msgid "Invalid comment"
+msgstr "comentario no válido"
+
+#: Controller/CommentsController.php:54;79
+msgid "The comment has been saved"
+msgstr "El comentario ha sido guardado"
+
+#: Controller/CommentsController.php:57;82
+msgid "The comment could not be saved. Please, try again."
+msgstr "El comentario no se ha podido guardar. Por favor, inténtelo de nuevo"
+
+#: Controller/CommentsController.php:110
+msgid "Comment deleted"
+msgstr "Comentario eliminado"
+
+#: Controller/CommentsController.php:113
+msgid "Comment was not deleted"
+msgstr "El comentario no se ha eliminado"
+
+#: Controller/AssociationsController.php:39;72;101
+msgid "Invalid association"
+msgstr "asociación no válido"
+
+#: Controller/AssociationsController.php:54;76
+msgid "The association has been saved"
+msgstr "La asociación se ha salvado"
+
+#: Controller/AssociationsController.php:57;79
+msgid "The association could not be saved. Please, try again."
+msgstr "La asociación no se pudo guardar. Por favor, inténtelo de nuevo."
+
+#: Controller/AssociationsController.php:104
+msgid "Association deleted"
+msgstr "Asociación borrado"
+
+#: Controller/AssociationsController.php:107
+msgid "Association was not deleted"
+msgstr "Asociación no se ha eliminado"
+
+#: Controller/BuildingsController.php:39;75;107
+msgid "Invalid building"
+msgstr "edificio no válido"
+
+#: Controller/BuildingsController.php:54;79
+msgid "The building has been saved"
+msgstr "El edificio ha sido guardado"
+
+#: Controller/BuildingsController.php:57;82
+msgid "The building could not be saved. Please, try again."
+msgstr "El edificio no se pudo guardar. Por favor, inténtelo de nuevo."
+
+#: Controller/BuildingsController.php:110
+msgid "Building deleted"
+msgstr "Edificio borrado"
+
+#: Controller/BuildingsController.php:113
+msgid "Building was not deleted"
+msgstr "Construyendo no se ha eliminado"
+
+#: Controller/UsersController.php:25
+msgid "Username or password invalid. Please, try again."
+msgstr "Nombre de usuario o contraseña inválidos. Por favor , vuelva a intentarlo ."
+
+#: Controller/UsersController.php:60;93;122
+msgid "Invalid user"
+msgstr "usuario no válido"
+
+#: Controller/UsersController.php:75;97
+msgid "The user has been saved"
+msgstr "El usuario ha sido guardado"
+
+#: Controller/UsersController.php:78;100
+msgid "The user could not be saved. Please, try again."
+msgstr "El usuario no se ha podido guardar. Por favor, inténtelo de nuevo."
+
+#: Controller/UsersController.php:125
+msgid "User deleted"
+msgstr "Usuario borrado"
+
+#: Controller/UsersController.php:128
+msgid "User was not deleted"
+msgstr "El usuario no se ha eliminado"
+
+#: Plugin/I18n/Controller/TranslationsController.php:146
+msgid "The translation has been saved"
+msgstr "La traducción ha sido guardado"
+
+#: Plugin/I18n/Controller/TranslationsController.php:167;190
+msgid "Translation saved"
+msgstr "Traducción salvo"
+
+#: Plugin/I18n/Controller/TranslationsController.php:210
+msgid "Translation deleted"
+msgstr "Traducción borrado"
+
+#: Plugin/I18n/Model/Translation.php:112
+msgid "Could not save the translation, please check your inputs."
+msgstr "No se pudo guardar la traducción, por favor, compruebe sus entradas."
+
+#: Plugin/I18n/Model/Translation.php:134;171;215;237
+msgid "Invalid Translation"
+msgstr "La traducción no válido"
+
+#: Plugin/I18n/Model/Translation.php:255
+msgid "You need to confirm to delete this Translation"
+msgstr "Es necesario confirmar eliminar esta traducción"
+
+#: Plugin/I18n/View/Translations/admin_add.ctp:4
+msgid "Admin Add Translation"
+msgstr "Admin Añadir traducción"
+
+#: Plugin/I18n/View/Translations/admin_add.ctp:17
+#: Plugin/I18n/View/Translations/admin_edit.ctp:19
+#: Plugin/I18n/View/Translations/admin_edit_multi.ctp:26
+#: Plugin/I18n/View/Translations/admin_view.ctp:40
+msgid "Lista Las traducciones"
+msgstr ""
+
+#: Plugin/I18n/View/Translations/admin_delete.ctp:1
+msgid "Delete Translation \"%s\"?"
+msgstr ""Eliminar traducción \"% s \ "?"
+
+#: Plugin/I18n/View/Translations/admin_delete.ctp:3
+msgid ""
+"Be aware that your Translation and all associated data will be deleted if "
+"you confirm!"
+msgstr ""
+"Tenga en cuenta que su traducción y todos los datos asociados se borrarán si"
+"confirmas!"
+
+#: Plugin/I18n/View/Translations/admin_delete.ctp:11
+msgid "Confirm"
+msgstr "Confirmar"
+
+#: Plugin/I18n/View/Translations/admin_delete.ctp:13
+msgid "You have to confirm."
+msgstr "Usted tiene que confirmar."
+
+#: Plugin/I18n/View/Translations/admin_delete.ctp:14
+msgid "Continue"
+msgstr "Continuar"
+
+#: Plugin/I18n/View/Translations/admin_edit.ctp:4
+#: Plugin/I18n/View/Translations/admin_edit_multi.ctp:4
+msgid "Admin Edit Translation"
+msgstr "Admin Editar Traducción"
+
+#: Plugin/I18n/View/Translations/admin_edit.ctp:18
+#: Plugin/I18n/View/Translations/admin_index.ctp:70 View/Categories/edit.ctp:9
+#: View/Comments/edit.ctp:9 View/Comments/index.ctp:51 View/Associations/edit.ctp:9
+#: View/Associations/index.ctp:41 View/Associations/view.ctp:77
+#: View/Buildings/edit.ctp:9 View/Buildings/index.ctp:61
+#: View/Buildings/view.ctp:111 View/Users/edit.ctp:9 View/Users/index.ctp:51
+#: View/Users/view.ctp:110
+msgid "Delete"
+msgstr "Eliminar"
+
+#: Plugin/I18n/View/Translations/admin_edit_multi.ctp:22
+#: View/Comments/add.ctp:40 View/Comments/edit.ctp:44 View/Associations/add.ctp:32
+#: View/Associations/edit.ctp:36 View/Buildings/add.ctp:48 View/Buildings/edit.ctp:52
+#: View/Users/add.ctp:42 View/Users/edit.ctp:45
+msgid "Submit"
+msgstr "Enviar"
+
+#: Plugin/I18n/View/Translations/admin_index.ctp:2
+msgid "Translations"
+msgstr "Traducciones"
+
+#: Plugin/I18n/View/Translations/admin_index.ctp:6
+#: View/Comments/index.ctp:62 View/Associations/index.ctp:52
+#: View/Buildings/index.ctp:72 View/Users/index.ctp:62
+msgid ""
+"Page {:page} of {:pages}, showing {:current} records out of {:count} total, "
+"starting on record {:start}, ending on {:end}"
+msgstr ""
+"Página {: página} de {:} páginas, mostrando {:} actuales registros de {:} recuento total"
+"a partir del registro {: start}, que finaliza el {: end}"
+
+#: Plugin/I18n/View/Translations/admin_index.ctp:17
+msgid "Locale Name"
+msgstr "Nombre Local"
+
+#: Plugin/I18n/View/Translations/admin_index.ctp:20
+msgid "Model Name"
+msgstr "Nombre del modelo"
+
+#: Plugin/I18n/View/Translations/admin_index.ctp:23
+#: Plugin/I18n/View/Translations/admin_view.ctp:24
+msgid "Field"
+msgstr "El campo"
+
+#: Plugin/I18n/View/Translations/admin_index.ctp:26
+#: Plugin/I18n/View/Translations/admin_view.ctp:29
+msgid "Content"
+msgstr "Contenido"
+
+#: Plugin/I18n/View/Translations/admin_index.ctp:28
+msgid "Search"
+msgstr "Buscar"
+
+#: Plugin/I18n/View/Translations/admin_index.ctp:40
+#: View/Comments/index.ctp:34 View/Associations/index.ctp:30
+#: View/Associations/view.ctp:62 View/Buildings/index.ctp:40
+#: View/Buildings/view.ctp:96 View/Users/index.ctp:35 View/Users/view.ctp:91
+msgid "Actions"
+msgstr "Acciones"
+
+#: Plugin/I18n/View/Translations/admin_index.ctp:67
+#: View/Comments/index.ctp:49 View/Associations/index.ctp:39
+#: View/Associations/view.ctp:75 View/Buildings/index.ctp:59
+#: View/Buildings/view.ctp:109 View/Users/index.ctp:49 View/Users/view.ctp:108
+msgid "View"
+msgstr "Ver"
+
+#: Plugin/I18n/View/Translations/admin_index.ctp:68
+#: View/Comments/index.ctp:50 View/Associations/index.ctp:40
+#: View/Associations/view.ctp:76 View/Buildings/index.ctp:60
+#: View/Buildings/view.ctp:110 View/Users/index.ctp:50 View/Users/view.ctp:109
+msgid "Edit"
+msgstr "Editar"
+
+#: Plugin/I18n/View/Translations/admin_index.ctp:69
+msgid "Edit All locales for this entry"
+msgstr "Editar Todas las localidades para esta entrada"
+
+#: Plugin/I18n/View/Translations/admin_index.ctp:80
+#: Plugin/I18n/View/Translations/admin_view.ctp:41
+msgid "New Translation"
+msgstr "Traducción del Nuevo"
+
+#: Plugin/I18n/View/Translations/admin_view.ctp:2
+msgid "Translation"
+msgstr "La traducción"
+
+#: Plugin/I18n/View/Translations/admin_view.ctp:4
+#: View/Associations/view.ctp:31;58 View/Buildings/view.ctp:35;92
+#: View/Users/view.ctp:31;83
+msgid "Id"
+msgstr "Id"
+
+#: Plugin/I18n/View/Translations/admin_view.ctp:9
+msgid "Locale"
+msgstr "Locale"
+
+#: Plugin/I18n/View/Translations/admin_view.ctp:14
+msgid "Model"
+msgstr "Modelo"
+
+#: Plugin/I18n/View/Translations/admin_view.ctp:19
+msgid "Foreign Key"
+msgstr "clave externa"
+
+#: Plugin/I18n/View/Translations/admin_view.ctp:38
+msgid "Edit Translation"
+msgstr "Editar Traducción"
+
+#: Plugin/I18n/View/Translations/admin_view.ctp:39
+msgid "Delete Translation"
+msgstr "Eliminar traducción"
+
+#: View/Comments/add.ctp:10 View/Comments/edit.ctp:11
+#: View/Comments/index.ctp:10 View/Comments/view.ctp:13 View/Buildings/add.ctp:9
+#: View/Buildings/edit.ctp:10 View/Buildings/view.ctp:11 View/Users/add.ctp:10
+#: View/Users/edit.ctp:11 View/Users/index.ctp:10 View/Users/view.ctp:13
+msgid "Lista de Edificios"
+msgstr ""
+
+#: View/Comments/add.ctp:11 View/Comments/edit.ctp:12
+#: View/Comments/index.ctp:11 View/Comments/view.ctp:14
+#: View/Buildings/index.ctp:9 View/Buildings/view.ctp:12 View/Users/add.ctp:11
+#: View/Users/edit.ctp:12 View/Users/index.ctp:11 View/Users/view.ctp:14;122
+msgid "Nuevo edificio"
+msgstr ""
+
+#: View/Associations/add.ctp:29
+#: View/Associations/edit.ctp:33 View/Associations/index.ctp:29
+msgid "nom"
+msgstr "nombre"
+
+#: View/Comments/index.ctp:51 View/Comments/view.ctp:10
+#: View/Associations/edit.ctp:9 View/Associations/index.ctp:41
+#: View/Associations/view.ctp:10;77 View/Buildings/edit.ctp:9
+#: View/Buildings/index.ctp:61 View/Buildings/view.ctp:10;111
+#: View/Users/edit.ctp:9 View/Users/index.ctp:51 View/Users/view.ctp:10;110
+msgid "Are you sure you want to delete # %s?"
+msgstr "¿Está seguro que desea borrar #% s?"
+
+#: View/Comments/index.ctp:30 View/Associations/edit.ctp:30
+#: View/Associations/index.ctp:28 View/Buildings/edit.ctp:34
+#: View/Buildings/index.ctp:32 View/Users/edit.ctp:30 View/Users/index.ctp:28
+msgid "id"
+msgstr "id"
+
+#: View/Associations/index.ctp:59 View/Buildings/index.ctp:79
+#: View/Users/index.ctp:69
+msgid "Previous"
+msgstr "Anterior"
+
+#: View/Users/index.ctp:71
+msgid "Next"
+msgstr "Siguiente"
+
+#: View/Users/view.ctp:56;89
+msgid "Created"
+msgstr "Creado"
+
+#: View/Users/view.ctp:61;90
+msgid "Modified"
+msgstr "Modificado"
+
+#: View/Comments/add.ctp:9 View/Comments/edit.ctp:10 View/Comments/view.ctp:11
+#: View/Associations/add.ctp:10 View/Associations/edit.ctp:11
+#: View/Associations/index.ctp:10 View/Associations/view.ctp:13
+#: View/Buildings/add.ctp:14 View/Buildings/edit.ctp:15
+#: View/Buildings/index.ctp:14 View/Buildings/view.ctp:17
+msgid "List Comments"
+msgstr "Lista Comentarios"
+
+#: View/Comments/add.ctp:12 View/Comments/edit.ctp:13
+#: View/Comments/index.ctp:12 View/Comments/view.ctp:15 View/Associations/add.ctp:9
+#: View/Associations/edit.ctp:10 View/Associations/view.ctp:11
+msgid "List Associations"
+msgstr "Lista de Asociaciones"
+
+#: View/Comments/add.ctp:13 View/Comments/edit.ctp:14
+#: View/Comments/index.ctp:13 View/Comments/view.ctp:16
+#: View/Associations/index.ctp:9 View/Associations/view.ctp:12
+msgid "New Association"
+msgstr "Nueva Asociación"
+
+#: View/Comments/add.ctp:22
+msgid "Add Comment"
+msgstr "Añadir comentario"
+
+#: View/Comments/add.ctp:31 View/Comments/edit.ctp:35
+#: View/Comments/index.ctp:31
+msgid "comment"
+msgstr "comentario"
+
+#: View/Comments/edit.ctp:23 View/Comments/view.ctp:9
+msgid "Edit Comment"
+msgstr "Editar comentario"
+
+#: View/Comments/index.ctp:9 View/Comments/view.ctp:12 View/Associations/add.ctp:11
+#: View/Associations/edit.ctp:12 View/Associations/index.ctp:11
+#: View/Associations/view.ctp:14;89 View/Buildings/add.ctp:15
+#: View/Buildings/edit.ctp:16 View/Buildings/index.ctp:15
+#: View/Buildings/view.ctp:18;123
+msgid "New Comment"
+msgstr "Nuevo comentario"
+
+#: View/Comments/index.ctp:24
+msgid "Comments"
+msgstr "Comentarios"
+
+#: View/Comments/view.ctp:10
+msgid "Delete Comment"
+msgstr "Eliminar comentario"
+
+#: View/Comments/view.ctp:28;38 View/Associations/view.ctp:59
+#: View/Buildings/view.ctp:93
+msgid "Comment"
+msgstr "Comentario"
+
+#: View/Buildings/view.ctp:30
+msgid "Building"
+msgstr "Edificio"
+
+#: View/Comments/view.ctp:48 View/Associations/view.ctp:26
+msgid "Association"
+msgstr "Asociación"
+
+#: View/Associations/add.ctp:20
+msgid "Add Association"
+msgstr "Añadir Asociación"
+
+#: View/Associations/edit.ctp:21 View/Associations/view.ctp:9
+msgid "Edit Association"
+msgstr "Asociación Editar"
+
+#: View/Associations/index.ctp:22
+msgid "Associations"
+msgstr "Asociaciones"
+
+#: View/Associations/view.ctp:10
+msgid "Delete Association"
+msgstr "Eliminar Asociación"
+
+#: View/Associations/view.ctp:50 View/Buildings/view.ctp:84
+msgid "Related Comments"
+msgstr "Comentarios relacionados"
+
+#: View/Associations/view.ctp:60 View/Buildings/view.ctp:94
+msgid "Building Id"
+msgstr "Edificio ID"
+
+#: View/Associations/view.ctp:61 View/Buildings/view.ctp:95
+msgid "Association Id"
+msgstr "Asociación Id"
+
+#: View/Buildings/add.ctp:12 View/Buildings/edit.ctp:13
+#: View/Buildings/index.ctp:12 View/Buildings/view.ctp:15 View/Users/add.ctp:9
+#: View/Users/edit.ctp:10 View/Users/view.ctp:11
+msgid "List Users"
+msgstr "Lista de Usuarios"
+
+#: View/Buildings/add.ctp:13 View/Buildings/edit.ctp:14
+#: View/Buildings/index.ctp:13 View/Buildings/view.ctp:16 View/Users/index.ctp:9
+#: View/Users/view.ctp:12
+msgid "New User"
+msgstr "Usuario Nuevo"
+
+#: View/Buildings/add.ctp:24
+msgid "Add Building"
+msgstr "Añadir Building"
+
+#: View/Buildings/add.ctp:33 View/Buildings/edit.ctp:37
+#: View/Buildings/index.ctp:33
+msgid "building_name"
+msgstr "Nombre del edificio"
+
+#: View/Buildings/add.ctp:36 View/Buildings/edit.ctp:40
+#: View/Buildings/index.ctp:34
+msgid "building_description"
+msgstr "Descripción del edificio"
+
+#: View/Buildings/add.ctp:39 View/Buildings/edit.ctp:43
+#: View/Buildings/index.ctp:35
+msgid "building_manager"
+msgstr "Edificio Administrador"
+
+#: View/Users/add.ctp:39 View/Users/edit.ctp:42
+#: View/Users/index.ctp:32
+#: Model/User.php:validation
+msgid "email"
+msgstr "Email"
+
+#: View/Buildings/edit.ctp:25 View/Buildings/view.ctp:9
+msgid "Edit Building"
+msgstr "Editar Building"
+
+#: View/Buildings/index.ctp:26
+msgid "Buildings"
+msgstr "Edificios"
+
+#: View/Buildings/index.ctp:38 View/Users/index.ctp:33
+msgid "created"
+msgstr "creado"
+
+#: View/Buildings/index.ctp:39 View/Users/index.ctp:34
+msgid "modified"
+msgstr "modificado"
+
+#: View/Buildings/view.ctp:10
+msgid "Delete Building"
+msgstr "Eliminar Building"
+
+#: View/Buildings/view.ctp:60 View/Users/view.ctp:26
+msgid "User"
+msgstr "Usuario"
+
+#: View/Themed/Cakestrap/Elements/menu/top_menu.ctp:19
+msgid "Hello "
+msgstr "Hola"
+
+#: View/Themed/Cakestrap/Elements/menu/top_menu.ctp:23
+msgid "add user"
+msgstr "añadir usuario"
+
+#: View/Themed/Cakestrap/Elements/menu/top_menu.ctp:29
+msgid "Logout"
+msgstr "Cerrar sesión"
+
+#: View/Themed/Cakestrap/Elements/menu/top_menu.ctp:34 View/Users/login.ctp:13
+msgid "Login"
+msgstr "Login"
+
+#: View/Users/add.ctp:20
+msgid "Add User"
+msgstr "Añadir Usuario"
+
+#: View/Users/add.ctp:29 View/Users/edit.ctp:33 View/Users/index.ctp:29
+#: View/Users/login.ctp:9
+msgid "username"
+msgstr "nombre de usuario"
+
+#: View/Users/add.ctp:32 View/Users/edit.ctp:36 View/Users/index.ctp:30
+#: View/Users/login.ctp:10
+msgid "password"
+msgstr "password"
+
+#: View/Users/add.ctp:35 View/Users/edit.ctp:39 View/Users/index.ctp:31
+msgid "role"
+msgstr "papel"
+
+#: View/Users/edit.ctp:21 View/Users/view.ctp:9
+msgid "Edit User"
+msgstr "Editar usuario"
+
+#: View/Users/index.ctp:22
+msgid "Users"
+msgstr "Usuarios"
+
+#: View/Users/login.ctp:6
+msgid "Please enter your username and password"
+msgstr "Por favor, introduzca su nombre de usuario y la contraseña"
+
+#: View/Users/view.ctp:10
+msgid "Delete User"
+msgstr ""Eliminar usuario"
+
+#: View/Users/view.ctp:36
+msgid "Username"
+msgstr "Nombre de usuario"
+
+#: View/Users/view.ctp:41
+msgid "Password"
+msgstr "Password"
+
+#: View/Users/view.ctp:46
+msgid "Role"
+msgstr "Papel"
+
+#: Model/Comment.php:validation
+#: comment Model/Association.php:validation Model/Building.php:validation
+#: name;validation lastName Model/User.php:validation username;validation
+#: password
+msgid "notBlank"
+msgstr "No en blanco"
+
+#: Model/Comment.php:validation for field building_id;validation association_id
+#: Model/Building.php:validation category_id;validation user_id
+msgid "numeric"
+msgstr "numérico"
+
+#: Model/User.php:validation for field role
+msgid "inList"
+msgstr "En lista"
+
+#: Plugin/I18n/Model/Translation.php:validation for field locale
+msgid "Please enter a Locale"
+msgstr "Por favor, introduzca una configuración regional"
+
+#: Plugin/I18n/Model/Translation.php:validation for field model
+msgid "Please enter a Model"
+msgstr "Por favor, introduzca un modelo"
+
+#: Plugin/I18n/Model/Translation.php:validation for field foreign_key
+msgid "Please enter a Foreign Key"
+msgstr "Por favor, introduzca una clave externa"
+
+#: Plugin/I18n/Model/Translation.php:validation for field
+msgid "Please enter a Field"
+msgstr "Por favor, introduzca un campo"
